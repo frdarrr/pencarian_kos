@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "346271534311",
+    "firebase_url": "https://restapikost-default-rtdb.firebaseio.com",
+    "project_id": "restapikost",
+    "storage_bucket": "restapikost.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346271534311:android:fac140fd02aea58c662642",
+        "android_client_info": {
+          "package_name": "com.example.mobile_programming"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqT1m2QlFkE6AkvC8NOiVeN--7fL13aIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346271534311:android:5a47eb1c3485d820662642",
+        "android_client_info": {
+          "package_name": "com.example.pencarian_kos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqT1m2QlFkE6AkvC8NOiVeN--7fL13aIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

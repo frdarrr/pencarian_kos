@@ -36,6 +36,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   readmore: ^2.2.0
+  firebase_auth: ^4.14.0
+  firebase_core: ^2.22.0
+  http: ^1.1.0
 
 dev_dependencies:
   flutter_test:
@@ -72,10 +75,13 @@ flutter:
   - assets/imagekos/kamboja.jpg
   - assets/imagekos/mujirahayu.jpg
   - assets/imagekos/sakura.jpg
+  - assets/imagekos/firda.jpg
   - assets/icon/logokos.png
   - assets/icon/logorumahkos.jpg
   - assets/icon/logo.jpg
   - assets/icon/logoimage.png
+  - assets/icon/Image.png 
+  - assets/icon/register.png 
 
 
   

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pencarian_kos/daftar_kategori.dart';
+import 'package:pencarian_kos/login.dart';
+
 
 class homepage extends StatelessWidget {
   const homepage({super.key});
@@ -63,10 +64,8 @@ class homepage extends StatelessWidget {
                   SizedBox(width: 20),
                   InkWell(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => DaftarKategori()));
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => Login()));
                     },
                     child: Container(
                       decoration: BoxDecoration(
@@ -88,7 +87,9 @@ class homepage extends StatelessWidget {
           ),
           Container(
             alignment: Alignment.bottomCenter,
-            child: Image.asset('assets/icon/logoimage.png'),
+            child: Image.asset(
+              'assets/icon/logoimage.png',
+            ),
           )
         ],
       ),
